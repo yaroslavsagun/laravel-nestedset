@@ -1206,7 +1206,7 @@ trait NodeTrait
      *
      * @return \Illuminate\Database\Eloquent\Model
      */
-    public function replicate(array $except = null)
+    public function replicateData(array $except = null)
     {
         $defaults = [
             $this->getParentIdName(),
